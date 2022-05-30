@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    // "useUnknownInCatchVariables": false
+  },
+  "include": [
+    "next-env.d.ts",
+    // "**/*.ts",
+    "**/*.tsx",
+    // "./lib/**/*"
+    "./src/**/*.ts"
+, "src/components/dashboard/budget.tsx", "src/components/dashboard-sidebar.tsx", "src/components/logo.tsx", "src/components/logo.tsx", "src/components/nav-item.tsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

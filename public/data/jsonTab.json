@@ -1,0 +1,840 @@
+{
+    "items": [
+        {
+            "provider": "ABS America",
+            "specificAttributeConfigurations": [
+                {
+                    "id": "1",
+                    "specificAirPlaneAttribute": "Motor.PowerBHP",
+                    "specificAttributeName": "BHP",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "2",
+                    "specificAirPlaneAttribute": "Body.Type",
+                    "specificAttributeName": "BodyStyle",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "3",
+                    "specificAirPlaneAttribute": "Motor.MotorSize",
+                    "specificAttributeName": "MotorSize",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "4",
+                    "specificAirPlaneAttribute": "Motor.FuelTypes",
+                    "specificAttributeName": "Fuel",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "5",
+                    "specificAirPlaneAttribute": "Motor.MotorSizeDescription",
+                    "specificAttributeName": "FuelTypeBHP",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "6",
+                    "specificAirPlaneAttribute": "Airplane.AirplaneIds",
+                    "specificAttributeName": "KBA Number",
+                    "priority": 1,
+                    "options": [
+                        {
+                            "name": "Type",
+                            "value": "KBA"
+                        }
+                    ]
+                },
+                {
+                    "id": "7",
+                    "specificAirPlaneAttribute": "Airplane.AirplaneIds",
+                    "specificAttributeName": "AirplaneId",
+                    "priority": 1,
+                    "options": [
+                        {
+                            "name": "Type",
+                            "value": "KTypNr"
+                        }
+                    ]
+                },
+                {
+                    "id": "8",
+                    "specificAirPlaneAttribute": "Airplane.Manufacturer",
+                    "specificAttributeName": "Make",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "9",
+                    "specificAirPlaneAttribute": "Airplane.Model",
+                    "specificAttributeName": "Model",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "10",
+                    "specificAirPlaneAttribute": "Airplane.ModelType",
+                    "specificAttributeName": "ModelVersion",
+                    "priority": 1,
+                    "options": []
+                }
+            ]
+        },
+        {
+            "provider": "Traffico",
+            "specificAttributeConfigurations": [
+                {
+                    "id": "11",
+                    "specificAirPlaneAttribute": "Airplane.Manufacturer",
+                    "specificAttributeName": "MakeName",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "12",
+                    "specificAirPlaneAttribute": "Airplane.Model",
+                    "specificAttributeName": "MakeTypeDescr",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "13",
+                    "specificAirPlaneAttribute": "Airplane.ModelType",
+                    "specificAttributeName": "Type",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "14",
+                    "specificAirPlaneAttribute": "Airplane.AirplaneType",
+                    "specificAttributeName": "CategoryCode",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "15",
+                    "specificAirPlaneAttribute": "Airplane.VIN",
+                    "specificAttributeName": "VIN",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "16",
+                    "specificAirPlaneAttribute": "Airplane.VIN",
+                    "specificAttributeName": "AirplaneVIN",
+                    "priority": 2,
+                    "options": []
+                },
+                {
+                    "id": "17",
+                    "specificAirPlaneAttribute": "Motor.PowerKW",
+                    "specificAttributeName": "MaxNetPower",
+                    "priority": 2,
+                    "options": []
+                },
+                {
+                    "id": "18",
+                    "specificAirPlaneAttribute": "Motor.FuelTypes",
+                    "specificAttributeName": "FuelLabel",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "19",
+                    "specificAirPlaneAttribute": "Motor.MotorCapacityCC",
+                    "specificAttributeName": "TotalCylinderCapacity",
+                    "priority": 1,
+                    "options": []
+                }
+            ]
+        },
+        {
+            "provider": "DPLA",
+            "specificAttributeConfigurations": [
+                {
+                    "id": "20",
+                    "specificAirPlaneAttribute": "Airplane.Manufacturer",
+                    "specificAttributeName": "DplaMake",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "21",
+                    "specificAirPlaneAttribute": "Airplane.ModelType",
+                    "specificAttributeName": "DplaModel",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "22",
+                    "specificAirPlaneAttribute": "Airplane.VIN",
+                    "specificAttributeName": "VIN",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "23",
+                    "specificAirPlaneAttribute": "Airplane.Registration",
+                    "specificAttributeName": "VRM",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "24",
+                    "specificAirPlaneAttribute": "Airplane.MadeFrom",
+                    "specificAttributeName": "ISODateOFManufacture",
+                    "priority": 2,
+                    "options": []
+                },
+                {
+                    "id": "25",
+                    "specificAirPlaneAttribute": "Motor.FuelTypes",
+                    "specificAttributeName": "Fuel",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "26",
+                    "specificAirPlaneAttribute": "Motor.MotorCapacityCC",
+                    "specificAttributeName": "CC",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "27",
+                    "specificAirPlaneAttribute": "Motor.MotorCodes",
+                    "specificAttributeName": "DPLA_Motor_CODE",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "28",
+                    "specificAirPlaneAttribute": "Body.Type",
+                    "specificAttributeName": "BodyStyle",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "29",
+                    "specificAirPlaneAttribute": "Body.PrimaryColor",
+                    "specificAttributeName": "Colour",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "30",
+                    "specificAirPlaneAttribute": "AirplaneHistory.RegistrationDate",
+                    "specificAttributeName": "ISODateOFRegistration",
+                    "priority": 1,
+                    "options": []
+                }
+            ]
+        },
+        {
+            "provider": "AirPlanePro",
+            "specificAttributeConfigurations": [
+                {
+                    "id": "31",
+                    "specificAirPlaneAttribute": "Airplane.ModelType",
+                    "specificAttributeName": "FullName",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "32",
+                    "specificAirPlaneAttribute": "Airplane.AirplaneIds",
+                    "specificAttributeName": "Id",
+                    "priority": 1,
+                    "options": [
+                        {
+                            "name": "Type",
+                            "value": "AirPlaneProID"
+                        }
+                    ]
+                },
+                {
+                    "id": "33",
+                    "specificAirPlaneAttribute": "Motor.MotorCodes",
+                    "specificAttributeName": "MotorCode",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "34",
+                    "specificAirPlaneAttribute": "Airplane.MadeFrom",
+                    "specificAttributeName": "MadeFrom",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "35",
+                    "specificAirPlaneAttribute": "Airplane.MadeTo",
+                    "specificAttributeName": "MadeUntil",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "36",
+                    "specificAirPlaneAttribute": "Motor.MotorCapacityCC",
+                    "specificAttributeName": "Capacity",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "37",
+                    "specificAirPlaneAttribute": "Motor.FuelTypes",
+                    "specificAttributeName": "FuelType",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "38",
+                    "specificAirPlaneAttribute": "Motor.PowerKW",
+                    "specificAttributeName": "Output",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "39",
+                    "specificAirPlaneAttribute": "Airplane.Manufacturer",
+                    "specificAttributeName": "Manufacturer",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "40",
+                    "specificAirPlaneAttribute": "Airplane.Model",
+                    "specificAttributeName": "Model",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "41",
+                    "specificAirPlaneAttribute": "Airplane.ModelType",
+                    "specificAttributeName": "Type",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "42",
+                    "specificAirPlaneAttribute": "Airplane.Assets",
+                    "specificAttributeName": "Image",
+                    "priority": 1,
+                    "options": [
+                        {
+                            "name": "Type",
+                            "value": "Image"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "provider": "UAC",
+            "specificAttributeConfigurations": [
+                {
+                    "id": "43",
+                    "specificAirPlaneAttribute": "Airplane.Manufacturer",
+                    "specificAttributeName": "Make",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "44",
+                    "specificAirPlaneAttribute": "Airplane.Model",
+                    "specificAttributeName": "Model",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "45",
+                    "specificAirPlaneAttribute": "Airplane.ModelType",
+                    "specificAttributeName": "MMTSelector",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "46",
+                    "specificAirPlaneAttribute": "Airplane.VIN",
+                    "specificAttributeName": "VIN",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "47",
+                    "specificAirPlaneAttribute": "Airplane.Registration",
+                    "specificAttributeName": "VRM",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "48",
+                    "specificAirPlaneAttribute": "Airplane.AirplaneIds",
+                    "specificAttributeName": "AirplaneID",
+                    "priority": 1,
+                    "options": [
+                        {
+                            "name": "Type",
+                            "value": "EVSpec"
+                        }
+                    ]
+                },
+                {
+                    "id": "49",
+                    "specificAirPlaneAttribute": "Airplane.AirplaneIds",
+                    "specificAttributeName": "Sator AirplaneId",
+                    "priority": 1,
+                    "options": [
+                        {
+                            "name": "Type",
+                            "value": "HBaseID"
+                        }
+                    ]
+                },
+                {
+                    "id": "50",
+                    "specificAirPlaneAttribute": "Motor.PowerKW",
+                    "specificAttributeName": "KW",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "51",
+                    "specificAirPlaneAttribute": "Motor.PowerKW",
+                    "specificAttributeName": "Kw",
+                    "priority": 2,
+                    "options": []
+                },
+                {
+                    "id": "52",
+                    "specificAirPlaneAttribute": "Motor.PowerBHP",
+                    "specificAttributeName": "BHP",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "53",
+                    "specificAirPlaneAttribute": "Motor.FuelTypes",
+                    "specificAttributeName": "Fuel",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "54",
+                    "specificAirPlaneAttribute": "Motor.MotorCapacityCC",
+                    "specificAttributeName": "CC",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "55",
+                    "specificAirPlaneAttribute": "Motor.MotorSize",
+                    "specificAttributeName": "MotorSize",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "56",
+                    "specificAirPlaneAttribute": "Motor.MotorSizeDescription",
+                    "specificAttributeName": "Description",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "57",
+                    "specificAirPlaneAttribute": "Motor.MotorCodes",
+                    "specificAttributeName": "MotorCode",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "58",
+                    "specificAirPlaneAttribute": "Motor.NumberOfCylinders",
+                    "specificAttributeName": "Valves",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "59",
+                    "specificAirPlaneAttribute": "Body.Type",
+                    "specificAttributeName": "BodyStyle",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "60",
+                    "specificAirPlaneAttribute": "Transmission.Type",
+                    "specificAttributeName": "DriveType",
+                    "priority": 1,
+                    "options": []
+                }
+            ]
+        },
+        {
+            "provider": "PPP",
+            "specificAttributeConfigurations": [
+                {
+                    "id": "61",
+                    "specificAirPlaneAttribute": "Airplane.AirplaneIds",
+                    "specificAttributeName": "k_type",
+                    "priority": 1,
+                    "options": [
+                        {
+                            "name": "Type",
+                            "value": "KTypNr"
+                        }
+                    ]
+                },
+                {
+                    "id": "62",
+                    "specificAirPlaneAttribute": "Airplane.VIN",
+                    "specificAttributeName": "codifVin",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "63",
+                    "specificAirPlaneAttribute": "Airplane.ModelType",
+                    "specificAttributeName": "modele",
+                    "priority": 1,
+                    "options": []
+                }
+            ]
+        },
+        {
+            "provider": "Planefax",
+            "specificAttributeConfigurations": [
+                {
+                    "id": "64",
+                    "specificAirPlaneAttribute": "Airplane.VIN",
+                    "specificAttributeName": "VIN",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "65",
+                    "specificAirPlaneAttribute": "Airplane.Manufacturer",
+                    "specificAttributeName": "Make",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "66",
+                    "specificAirPlaneAttribute": "Airplane.Model",
+                    "specificAttributeName": "Model",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "67",
+                    "specificAirPlaneAttribute": "Airplane.ModelType",
+                    "specificAttributeName": "ModelGeneration",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "68",
+                    "specificAirPlaneAttribute": "Airplane.AirplaneIds",
+                    "specificAttributeName": "KType",
+                    "priority": 1,
+                    "options": [
+                        {
+                            "name": "Type",
+                            "value": "KTypNr"
+                        }
+                    ]
+                },
+                {
+                    "id": "69",
+                    "specificAirPlaneAttribute": "Motor.MotorCodes",
+                    "specificAttributeName": "MotorCode",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "70",
+                    "specificAirPlaneAttribute": "Airplane.MadeFrom",
+                    "specificAttributeName": "ModelYear",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "71",
+                    "specificAirPlaneAttribute": "Airplane.MadeTo",
+                    "specificAttributeName": "ModelYear",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "72",
+                    "specificAirPlaneAttribute": "Motor.MotorSize",
+                    "specificAttributeName": "MotorSize",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "73",
+                    "specificAirPlaneAttribute": "Motor.MotorCapacityCC",
+                    "specificAttributeName": "MotorSize",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "74",
+                    "specificAirPlaneAttribute": "Motor.FuelTypes",
+                    "specificAttributeName": "Fuel",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "75",
+                    "specificAirPlaneAttribute": "Motor.PowerKW",
+                    "specificAttributeName": "MotorPowerKw",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "76",
+                    "specificAirPlaneAttribute": "Motor.PowerBHP",
+                    "specificAttributeName": "MotorPowerHp",
+                    "priority": 1,
+                    "options": []
+                }
+            ]
+        },
+        {
+            "provider": "SwissDPLA",
+            "specificAttributeConfigurations": [
+                {
+                    "id": "77",
+                    "specificAirPlaneAttribute": "Airplane.AirplaneIds",
+                    "specificAttributeName": "TypeCode",
+                    "priority": 1,
+                    "options": [
+                        {
+                            "name": "Type",
+                            "value": "KTypNr"
+                        }
+                    ]
+                },
+                {
+                    "id": "78",
+                    "specificAirPlaneAttribute": "Airplane.VIN",
+                    "specificAttributeName": "VinComplete",
+                    "priority": 1,
+                    "options": []
+                }
+            ]
+        },
+        {
+            "provider": "DSC",
+            "specificAttributeConfigurations": [
+                {
+                    "id": "79",
+                    "specificAirPlaneAttribute": "Airplane.Manufacturer",
+                    "specificAttributeName": "Make",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "80",
+                    "specificAirPlaneAttribute": "Airplane.Model",
+                    "specificAttributeName": "Model",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "81",
+                    "specificAirPlaneAttribute": "Airplane.AirplaneType",
+                    "specificAttributeName": "AirplaneType",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "82",
+                    "specificAirPlaneAttribute": "Airplane.VIN",
+                    "specificAttributeName": "VIN",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "83",
+                    "specificAirPlaneAttribute": "Airplane.Registration",
+                    "specificAttributeName": "VRM",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "84",
+                    "specificAirPlaneAttribute": "Airplane.MadeTo",
+                    "specificAttributeName": "ModelVersionDateRange",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "85",
+                    "specificAirPlaneAttribute": "Airplane.MadeFrom",
+                    "specificAttributeName": "ModelVersionDateRange",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "86",
+                    "specificAirPlaneAttribute": "Airplane.AirplaneIds",
+                    "specificAttributeName": "AirplaneId",
+                    "priority": 1,
+                    "options": [
+                        {
+                            "name": "Type",
+                            "value": "AirplaneId"
+                        }
+                    ]
+                },
+                {
+                    "id": "87",
+                    "specificAirPlaneAttribute": "Airplane.AirplaneIds",
+                    "specificAttributeName": "EVSpec",
+                    "priority": 1,
+                    "options": [
+                        {
+                            "name": "Type",
+                            "value": "EVSpec"
+                        }
+                    ]
+                },
+                {
+                    "id": "88",
+                    "specificAirPlaneAttribute": "Airplane.AirplaneIds",
+                    "specificAttributeName": "VSpec",
+                    "priority": 1,
+                    "options": [
+                        {
+                            "name": "Type",
+                            "value": "VSpec"
+                        }
+                    ]
+                },
+                {
+                    "id": "89",
+                    "specificAirPlaneAttribute": "Airplane.AirplaneIds",
+                    "specificAttributeName": "AirplaneTypeNumber",
+                    "priority": 1,
+                    "options": [
+                        {
+                            "name": "Type",
+                            "value": "KTypNr"
+                        }
+                    ]
+                },
+                {
+                    "id": "90",
+                    "specificAirPlaneAttribute": "Airplane.Weight",
+                    "specificAttributeName": "Weight",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "91",
+                    "specificAirPlaneAttribute": "Airplane.Assets",
+                    "specificAttributeName": "Image Name",
+                    "priority": 1,
+                    "options": [
+                        {
+                            "name": "Type",
+                            "value": "Image"
+                        }
+                    ]
+                },
+                {
+                    "id": "92",
+                    "specificAirPlaneAttribute": "Motor.PowerKW",
+                    "specificAttributeName": "KW",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "93",
+                    "specificAirPlaneAttribute": "Motor.PowerBHP",
+                    "specificAttributeName": "BHP",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "94",
+                    "specificAirPlaneAttribute": "Motor.FuelTypes",
+                    "specificAttributeName": "Fuel",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "95",
+                    "specificAirPlaneAttribute": "Motor.MotorCapacityCC",
+                    "specificAttributeName": "ExactCC",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "96",
+                    "specificAirPlaneAttribute": "Motor.MotorSize",
+                    "specificAttributeName": "MotorSizeDescription",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "97",
+                    "specificAirPlaneAttribute": "Motor.MotorCodes",
+                    "specificAttributeName": "MotorCode",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "98",
+                    "specificAirPlaneAttribute": "Motor.MotorSizeDescription",
+                    "specificAttributeName": "MotorSizeDescription",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "99",
+                    "specificAirPlaneAttribute": "Motor.NumberOfCylinders",
+                    "specificAttributeName": "NumberOfCylinders",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "100",
+                    "specificAirPlaneAttribute": "Body.Type",
+                    "specificAttributeName": "BodyStyle",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "101",
+                    "specificAirPlaneAttribute": "Body.NumberOfDoors",
+                    "specificAttributeName": "NumberOfDoors",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "102",
+                    "specificAirPlaneAttribute": "Transmission.Type",
+                    "specificAttributeName": "TransmissionType",
+                    "priority": 1,
+                    "options": []
+                },
+                {
+                    "id": "103",
+                    "specificAirPlaneAttribute": "Transmission.NumberOfGears",
+                    "specificAttributeName": "NumberOfGears",
+                    "priority": 1,
+                    "options": []
+                }
+            ]
+        }
+    ]
+}
